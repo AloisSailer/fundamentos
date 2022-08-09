@@ -1,6 +1,6 @@
-import Post from './Post'
+import { Post } from './Post'
 
-function App() {
+export function App() {
   return (
     <div>
       <Post />
@@ -10,5 +10,3 @@ function App() {
     </div>
   )
 }
-
-export default App
